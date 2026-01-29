@@ -31,8 +31,7 @@
               "ViewState": "AgIAACAAAAAAAAAAAAA9wC8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T12:56:19.024Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -46,7 +45,7 @@
               "RelativeDocumentMoniker": "2\\2.cs",
               "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\ConsoleApp1\\2\\2.cs",
               "RelativeToolTip": "2\\2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T14:40:49.581Z",
               "EditorCaption": ""

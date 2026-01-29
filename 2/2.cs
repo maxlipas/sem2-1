@@ -1,13 +1,11 @@
 ﻿using System;
 Console.WriteLine("=== Работа с рациональными дробями ===");
 
-// Ввод первой дроби
 Console.Write("Введите числитель первой дроби: ");
 int a = int.Parse(Console.ReadLine()!);
 Console.Write("Введите знаменатель первой дроби: ");
 int b = int.Parse(Console.ReadLine()!);
 
-// Ввод второй дроби
 Console.Write("Введите числитель второй дроби: ");
 int c = int.Parse(Console.ReadLine()!);
 Console.Write("Введите знаменатель второй дроби: ");
