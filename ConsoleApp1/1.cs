@@ -1,69 +1,75 @@
 ﻿using System;
-    Console.Write("Введите год: ");
-    double year = double.Parse(Console.ReadLine()!);
-    Console.Write("Введите месяц: ");
-    double month = double.Parse(Console.ReadLine()!);
-    Console.Write("Введите день: ");
-    double day = double.Parse(Console.ReadLine()!);
 
-    Date date = new Date(year, month, day);
-    date.Increase();
-    Console.WriteLine(date);
+Console.Write("Введите год: ");
+int year = int.Parse(Console.ReadLine()!);
+Console.Write("Введите месяц: ");
+int month = int.Parse(Console.ReadLine()!);
+Console.Write("Введите день: ");
+int day = int.Parse(Console.ReadLine()!);
 
-        Console.Write("Введите часы: ");
-        double hours = double.Parse(Console.ReadLine()!);
-        Console.Write("Введите минуты: ");
-        double minutes = double.Parse(Console.ReadLine()!);
-        Console.Write("Введите секунды: ");
-        double seconds = double.Parse(Console.ReadLine()!);
+Date date = new Date(year, month, day);
+date.Increase();
+Console.WriteLine(date);
 
-        Time time = new Time(hours, minutes, seconds);
-        time.Increase();
-        Console.WriteLine(time);
+Console.Write("Введите часы: ");
+int hours = int.Parse(Console.ReadLine()!);
+Console.Write("Введите минуты: ");
+int minutes = int.Parse(Console.ReadLine()!);
+Console.Write("Введите секунды: ");
+int seconds = int.Parse(Console.ReadLine()!);
+
+Time time = new Time(hours, minutes, seconds);
+time.Increase();
+Console.WriteLine(time);
+
 abstract class Triad
 {
-    public abstract double Increase();
+    public abstract int Increase();
 }
 
 class Date : Triad
 {
-    private double year;
-    private double month;
-    private double day;
-    public double Year
+    private int year;
+    private int month;
+    private int day;
+
+    public int Year
     {
         get { return year; }
         set { if (value > 0) year = value; }
     }
-    public double Month
+
+    public int Month
     {
         get { return month; }
         set { if (value > 0 && value <= 12) month = value; }
     }
-    public double Day
+
+    public int Day
     {
         get { return day; }
         set { if (value > 0 && value <= 31) day = value; }
     }
-    public Date(double year, double month, double day)
+
+    public Date(int year, int month, int day)
     {
         this.year = year;
         this.month = month;
         this.day = day;
     }
-    public override double Increase()
-    {
-        double oldSum = year + month + day;
 
+    public override int Increase()
+    {
         day += 1;
         month += 1;
         year += 1;
-        if (day > 31) { day -= 31; month++; }
-        if (month > 12){ month -= 12; year++; }
 
-        double newSum = year + month + day;
+        if (day > 31) { day -= 31; month++; }
+        if (month > 12) { month -= 12; year++; }
+
         return 404;
     }
+
     public override string ToString()
     {
         return $"Дата увеличенная на 1: {year}.{month}.{day}";
@@ -72,41 +78,41 @@ class Date : Triad
 
 class Time : Triad
 {
-    private double hours;
-    private double minutes;
-    private double seconds;
+    private int hours;
+    private int minutes;
+    private int seconds;
 
-    public double Hours
+    public int Hours
     {
         get { return hours; }
         set { if (value >= 0 && value < 24) hours = value; }
     }
 
-    public double Minutes
+    public int Minutes
     {
         get { return minutes; }
         set { if (value >= 0 && value < 60) minutes = value; }
     }
 
-    public double Seconds
+    public int Seconds
     {
         get { return seconds; }
         set { if (value >= 0 && value < 60) seconds = value; }
     }
 
-    public Time(double hours, double minutes, double seconds)
+    public Time(int hours, int minutes, int seconds)
     {
         this.hours = hours;
         this.minutes = minutes;
         this.seconds = seconds;
     }
 
-    public override double Increase()
+    public override int Increase()
     {
-        double oldTotal = hours * 3600 + minutes * 60 + seconds;
         seconds += 1;
         minutes += 1;
         hours += 1;
+
         if (seconds >= 60)
         {
             seconds -= 60;
@@ -121,9 +127,10 @@ class Time : Triad
         {
             hours -= 24;
         }
-        double newTotal = hours * 3600 + minutes * 60 + seconds;
+
         return 404;
     }
+
     public override string ToString()
     {
         return $"Время увеличенное на 1: {hours}:{minutes}:{seconds}";

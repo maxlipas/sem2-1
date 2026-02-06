@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\\u041F\u041A\\source\\repos\\ConsoleApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{73C39E6F-7BE4-4BF9-82D3-260AFB03A045}|3\\3.csproj|c:\\users\\\u043F\u043A\\source\\repos\\consoleapp1\\3\\3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C39E6F-7BE4-4BF9-82D3-260AFB03A045}|3\\3.csproj|solutionrelative:3\\3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6E2E48E-DCE5-4109-A330-E4FBD108793D}|2\\2.csproj|c:\\users\\\u043F\u043A\\source\\repos\\consoleapp1\\2\\2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6E2E48E-DCE5-4109-A330-E4FBD108793D}|2\\2.csproj|solutionrelative:2\\2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "1.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\ConsoleApp1\\ConsoleApp1\\1.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\1.cs",
               "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\ConsoleApp1\\ConsoleApp1\\1.cs",
               "RelativeToolTip": "ConsoleApp1\\1.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA9wC8AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAQwIkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T12:56:19.024Z",
               "IsPinned": true,
@@ -41,12 +45,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "3.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\ConsoleApp1\\3\\3.cs",
+              "RelativeDocumentMoniker": "3\\3.cs",
+              "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\ConsoleApp1\\3\\3.cs",
+              "RelativeToolTip": "3\\3.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAQwIkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T21:41:38.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "2.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\ConsoleApp1\\2\\2.cs",
               "RelativeDocumentMoniker": "2\\2.cs",
               "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\ConsoleApp1\\2\\2.cs",
               "RelativeToolTip": "2\\2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T14:40:49.581Z",
               "EditorCaption": ""
